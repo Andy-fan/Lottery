@@ -12,7 +12,7 @@
 @protocol FanTabBarDelegate <NSObject>
 
 @optional
--(void)tabBar:(FanTabBar *)tabBar didSelectButtonFrom:(int)from to:(int)to;
+-(void)tabBar:(FanTabBar *)tabBar didSelectButtonFrom:(NSInteger)from to:(NSInteger)to;
 @end
 
 @interface FanTabBar : UIView

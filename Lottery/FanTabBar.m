@@ -62,7 +62,7 @@
 {
     [super layoutSubviews];
     
-    int count = self.subviews.count;
+    NSInteger count = self.subviews.count  ;
     for (int i = 0; i<count; i++) {
         FanTabBarButton *button = self.subviews[i];
         button.tag = i;

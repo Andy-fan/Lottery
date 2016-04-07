@@ -34,7 +34,7 @@
 }
 
 #pragma mark --- FANTabBar的代理方法
--(void)tabBar:(FanTabBar *)tabBar didSelectButtonFrom:(int)from to:(int)to
+-(void)tabBar:(FanTabBar *)tabBar didSelectButtonFrom:(NSInteger)from to:(NSInteger)to
 {
     //选中最新的控制器
     self.selectedIndex = to;
